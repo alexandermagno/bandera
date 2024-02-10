@@ -1,0 +1,105 @@
+*{
+    height: 33vh;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-color: blue;
+    border: none;
+    display: flex;
+    flex-flow: row wrap;
+    height: 400px;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+    
+}    
+.box{
+    border: 3px solid black;
+    font-size: 30px;
+    text-align: center;
+    margin: 15px;
+    
+ 
+    box-sizing: 1px;
+    
+    
+}
+.box1{
+   
+    background-color: white;
+    height: 50vh;
+    width: 38vw;
+}
+
+.hijo{
+    adding: 0px;
+    margin: 0px;
+    background-color: red;
+    width: 90%;
+    height: 44vh;
+    border: none;
+}
+.box2{
+    background-color: white;
+    height: 50vh;
+    width: 57vw;
+    position: relative;
+
+}
+.hijo2{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    background-color: red;
+    width: 55vw;
+    height: 44vh;
+    border: none;
+    position: absolute;
+    left: 50px
+    
+  
+   
+}
+.box3{
+    background-color: white;
+    height: 74vh;
+    width: 38vw;
+}
+.hijo3{
+    padding: 0px;
+    margin: 0px;
+    background-color: red;
+    width: 34vw;
+    height: 51vh;
+    border: none;
+    align-items: end;
+    position: relative;
+    top: 6vh;
+}
+.box4 {
+    background-color: white;
+    height: 58vh;
+    width: 57vw;
+    position: relative;
+
+    
+    
+}
+.hijo4{
+    align-items: flex-end;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    background-color: red;
+    width: 56vw;
+    height: 50vh;
+    border: none;
+    top: 7vh;
+    left: 4vw;
+    position: relative;
+    
+    
+
+
+}
